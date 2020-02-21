@@ -1,0 +1,107 @@
+body {
+    background-image: url();
+    /* background-color: rgb(50, 7, 69); */
+    background-color: rgb(255, 255, 255);
+
+}
+
+#title {
+    font-size: 100px;
+    color: rgb(57, 120, 255);
+}
+
+#intro-text {
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    line-height: ;
+    padding-top: 100px;
+
+}
+
+
+h5 {
+    color: rgb(25, 29, 36);
+}
+
+p {
+    color: rgb(108, 108, 108);
+}
+
+h5 {
+    text-align: justify;
+}
+
+/* #intro-div {
+    border-radius: 12px;
+    padding: 30px 20px 30px 20px;
+    background-color: rgba(31, 30, 30, 0.721);
+    border: 1px solid  rgb(25, 0, 255);
+
+} */
+
+
+/* #job {
+    margin-top: 30px;
+}
+
+#job-image {
+    margin-top: 10px;
+} */
+
+.main-content {
+    margin-top: 3rem;
+
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.nav-item {
+    color: rgb(148, 148, 148) !important;
+
+}
+
+#intro-div {
+    /* background-color: rgb(57, 120, 255); */
+    background-image: linear-gradient(to top, rgb(57, 120, 255), white);
+    height: 500px;
+
+}
+
+.call-to-action-div {
+    height: 200px;
+    background-color: white;
+    color: rgb(57, 163, 255) !important;
+    margin-top: 3rem;
+
+}
+
+.divider-div {}
+
+#contribute-btn,
+#data-btn {
+    width: 150px;
+    height: auto;
+    background-color: red;
+    border: solid 2px rgb(198, 198, 198);
+    color: white;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+
+
+
+}
+
+#contribute-btn:hover,
+#data-btn:hover {
+    background-color: white;
+    color: red;
+    border: solid 2px red;
+
+}
