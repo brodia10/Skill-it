@@ -4,7 +4,8 @@ from .views import *
 
 app = 'app'
 
+
 urlpatterns = [
-    path('', Hello.as_view(), name='Hello'),
-	path('contact', Contact.as_view(), name='Contact'),
+    path('', Landing.as_view(), name='Landing'),
+    path('form', Form.as_view(), name='Form')
 ]
